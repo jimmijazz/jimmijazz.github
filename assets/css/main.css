@@ -1623,11 +1623,11 @@
 	}
 
 	body {
-		background-color: #935d8c;
-		background-image: url("images/overlay.png"), -moz-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
-		background-image: url("images/overlay.png"), -webkit-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
-		background-image: url("images/overlay.png"), -ms-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
-		background-image: url("images/overlay.png"), linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
+		background-color: #71A950;
+		background-image: url("images/overlay.png"), -moz-linear-gradient(45deg, #387314 15%, #fff 85%);
+		background-image: url("images/overlay.png"), -webkit-linear-gradient(45deg, #387314 15%, #fff 85%);
+		background-image: url("images/overlay.png"), -ms-linear-gradient(45deg, #387314 15%, #fff 85%);
+		background-image: url("images/overlay.png"), linear-gradient(45deg, #387314 30%, #fff 70%);
 	}
 
 		body.is-loading *, body.is-loading *:before, body.is-loading *:after {
@@ -1839,7 +1839,11 @@
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #ffffff;
+		color: #1B3404;
+	}
+
+	h1+p {
+			color: #387314;
 	}
 
 	blockquote {
@@ -3142,7 +3146,7 @@
 				#header.alt .logo img {
 					display: block;
 					margin: 0 auto;
-					max-width: 75%;
+					max-width: 15%;
 				}
 
 		@media screen and (max-width: 1280px) {
